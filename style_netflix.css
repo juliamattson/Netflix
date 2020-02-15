@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.menyBar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+}
+
+.menyLeft {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.itemOne {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemTwo {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemThree {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemFour {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemFive {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menyRight {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    align-items: center;
+}
+
+.rightOne {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightTwo {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightThree {
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.textBox {
+    padding-top: 200px;
+    padding-left: 40px;
+    text-align: center;
+    width: 300px;
+}
+
+.backgroundPic {
+    background-image: url("/bilder/always.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rowOne {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.rowTwo {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.rowThree {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.rowFour {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 80px;
+}
+
+.buttonOne {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.301);  
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.buttonTwo {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.301);  
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color:rgba(169, 169, 169, 0.445);
+    background-color: black;
+}
+
+.containerBottom {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 40px;
+    width: 100%;
+    height: 8em;
+    padding-bottom: 15px;
+}
+
+.movieOne {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.movieTwo {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.movieThree {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieFour {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieFive {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieSix {
+    display: flex;
+    height: 100%;
+    min-width: 10em;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieImage {
+    height: 100%;
+    width: 100%;
+}
+
+.popular {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
